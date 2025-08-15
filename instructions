@@ -1,0 +1,37 @@
+| 🎤 You Say                      | 💡 Jarvis Will Do                     |
+| ------------------------------- | ------------------------------------- |
+| "Detect face"                   | Starts webcam and detects faces       |
+| "What time is it"               | Tells the time                        |
+| "Open YouTube" → "coding music" | Plays on YouTube                      |
+| "Search Google" → "Python AI"   | Opens Google search                   |
+| "Send WhatsApp" → number + msg  | Schedules a WhatsApp message in 2 min |
+| "Play music on JioSaavn"        | Asks song → Opens in browser          |
+| "Play music" → "Kesariya"       | Plays on YouTube                      |
+| "Exit" or "Bye"                 | Gracefully exits the assistant        |
+
+“Introduce yourself”
+
+“Who developed you”
+
+“What time is it?”
+
+“Detect face”
+
+“Play music”
+
+“Search Google for weather”
+
+“Exit”
+
+
+:
+
+🔧 Used Libraries and Their Purpose in Your Program
+Library	Command to Install	Used For
+opencv-python	pip install opencv-python	Face detection, motion detection using webcam (cv2)
+pyttsx3	pip install pyttsx3	Text-to-speech for Jarvis's voice (speak() function)
+speechrecognition	pip install SpeechRecognition	Recognizing your voice commands via microphone (listen_command())
+pyaudio	pip install pyaudio	Microphone access (required for speech_recognition)
+pywhatkit	pip install pywhatkit	Searching on Google, playing YouTube, sending WhatsApp messages
+
+pip install opencv-python pyttsx3 SpeechRecognition pyaudio pywhatkit
